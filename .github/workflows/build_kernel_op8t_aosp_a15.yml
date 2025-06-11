@@ -9,7 +9,7 @@ env:
   PATCHES_BRANCH: "op_kernel" # [your_branch] -> main
   HOOK_METHOD: "normal" # manual hook method,can choice syscall and normal.
   PROFILE_NAME: "kebab_aosp_a15.env" # your profile name.
-  KERNELSU_SUS_PATCH: "false" # if u need manual susfs patch to kernelsu.
+  KERNELSU_SUS_PATCH: "true" # if u need manual susfs patch to kernelsu.
 
 jobs:
   build:
